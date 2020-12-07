@@ -44,7 +44,7 @@ public class TestClass {
                     result = operand1 / operand2;
                     break;
                 default:
-                    System.out.println("Неверная операция");
+                    System.out.println("Неверная операция!");
             }
             System.out.println(result);
         }
