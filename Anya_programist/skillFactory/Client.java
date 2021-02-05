@@ -39,7 +39,6 @@ public class Client implements Runnable {
             out.println("Welcome to mountains!");
             String input = in.nextLine();
             while (!input.equals("bye")) {
-                server.sendAll(input);
                 input = in.nextLine();
             }
             socket.close();
